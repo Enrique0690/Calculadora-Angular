@@ -1,0 +1,24 @@
+<div>
+    <h2>Calculadora</h2>
+    <table>
+      <tr>
+        <td><input type="number" [(ngModel)]="numero1" placeholder="Número 1"></td>
+        <td rowspan="2">
+          <button (click)="sumar()">Sumar</button>
+          <button (click)="restar()">Restar</button>
+          <button (click)="multiplicar()">Multiplicar</button>
+          <button (click)="dividir()">Dividir</button>
+          <button (click)="reiniciar()">Reiniciar</button>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="number" [(ngModel)]="numero2" placeholder="Número 2"></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p [ngStyle]="{'color': resultado === 'Error: División para cero' ? 'red' : 'black'}">El resultado: {{ resultado }}</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+  

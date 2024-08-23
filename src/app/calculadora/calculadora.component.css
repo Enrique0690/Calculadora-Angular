@@ -1,0 +1,37 @@
+div {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1.2em;
+    width: 150px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
