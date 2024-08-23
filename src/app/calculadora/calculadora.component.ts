@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';  // Importar FormsModule
+import { FormsModule } from '@angular/forms';  
 
 @Component({
   selector: 'app-calculadora',
   templateUrl: './calculadora.component.html',
   styleUrls: ['./calculadora.component.css'],
   standalone: true,
-  imports: [CommonModule, FormsModule]  // Incluir FormsModule aquí
+  imports: [CommonModule, FormsModule]  
 })
 export class CalculadoraComponent {
   numero1: number = 0;
